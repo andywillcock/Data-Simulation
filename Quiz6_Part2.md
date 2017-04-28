@@ -32,9 +32,13 @@ This response should be normally distributed across the entire population
 ## Data Simulation Steps
 
 	1. Create distributions of the predictor variables based on the information 	found in the journal article
-		a. Make sure that correlated variables are properly matched. For 			example, taller people’s range of weights should be greater.
-		b. Give each row a value for income using a normal distribution with 		the mean found in the article.
-		c. Create columns for race, sex and parental education level using 			sample() with probabilities weighted based on the %s from the article 		population make up.
+		a. Make sure that correlated variables are properly matched. 
+		For example, taller people’s range of weights should be greater.
+		b. Give each row a value for income using a normal distribution with
+		the mean found in the article.
+		c. Create columns for race, sex and parental education level using
+		sample() with probabilities weighted based on the %s from the article
+ 		population make up.
 
 	2. Calculate BMI using height and weight, and store this in a new column.
 
