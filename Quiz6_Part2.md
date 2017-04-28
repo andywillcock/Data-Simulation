@@ -50,7 +50,8 @@ Create distributions of the predictor variables based on the information 	found 
 	1. Perform t-tests or chi-square tests for means of BMI across sex, race, 
 	education and income.
 
-	2. Fit a main effects and full linear model on the full set of data and 		grouped by race, sex, parental education, and income level.
+	2. Fit a main effects and full linear model on the full set of data and 
+		grouped by race, sex, parental education, and income level.
 
 	3. Plot distributions of each predictor variable.
 
